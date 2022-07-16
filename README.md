@@ -11,3 +11,5 @@ This is text for mock up.
 
 **SUBMISSION**
 This is text for submission.
+
+Here is some more sample text for commit test.
