@@ -22,4 +22,4 @@ THEN I find a concise, descriptive title
 This is sample text for mock up.
 
 **SUBMISSION**
-This is sample text for submission.
+this is another sample or something.  
