@@ -19,7 +19,9 @@ WHEN I view the title element
 THEN I find a concise, descriptive title
 
 **MOCK UP**
-This is sample text for mock up.
+
 
 **SUBMISSION**
-this is another sample or something.  
+The associated code and stylesheet for this assignment can be found at the following GitHub Pages link:
+https://shahidhashmi1.github.io/accessibilitychallenge/
+

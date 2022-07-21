@@ -4,6 +4,12 @@
     margin: 0;
 }
 
+h1::after {
+    display: inline;
+    position: relative;
+    justify-content: right;
+}
+
 body {
     background-color: #d9dcd6;
 }
@@ -86,20 +92,15 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+.benefit-brand, .benefit-cost, .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
+/* Consolidated .benefit-lead, .benefit-cost, and .benefit-brand classes
+together since they're all doing the same thing. Deleted the three separate
+styles for them */
 
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
 
 .benefit-lead h3 {
     margin-bottom: 10px;
@@ -116,25 +117,17 @@ p {
     text-align: center;
 }
 
-.benefit-lead img {
+.benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
+/* Consolidated benefit-brand, benefit-cost, and benefit-lead imgs
+to one single css style element through use of commas */
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.search-engine-optimization {
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -143,27 +136,14 @@ p {
     color: #ffffff;
 }
 
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
+/* consolidated .search-enginge-optimization, .online-reputation-management, 
+and .social-media-marketing classes to save same styling via commas */
 
 .search-engine-optimization img {
     max-height: 200px;
 }
+
+
 
 .online-reputation-management img {
     max-height: 200px;
