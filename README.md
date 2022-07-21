@@ -13,9 +13,18 @@
 - [License](#license)
 
 ## Description
-•   The motivation behind this project was to refactor an existing webpage to meet ADA and accessibility criteria for end-users that might be using non-traditional methods to view/ interact with the webpage. 
-•   The goal here was to identify generic tag elements and specify them further to semantic HTML to make comprehension and flow understandable for all end-users. 
-•   This activity taught me how important it is to analyze the code and associated styling css on a webpage
+
+<ul>
+<li>
+The motivation behind this project was to refactor an existing webpage to meet ADA and accessibility criteria for end-users that might be using non-traditional methods to view/ interact with the webpage. 
+</li>
+<li>
+The goal here was to identify generic tag elements and specify them further to semantic HTML to make comprehension and flow understandable for all end-users.
+</li>
+<li>
+This activity taught me how important it is to analyze the code and associated styling css on a webpage
+</li>
+</ul>
 
 ## Installation
 
