@@ -63,7 +63,7 @@ THEN I find a concise, descriptive title
 
 ## MOCK UP
 
-![alt text](./assets/images/mock%20up%20img.png)
+![Mock Up](./assets/images/mockup-img.png)
 
 ## SUBMISSION
 The associated code and stylesheet for this assignment can be found at the following GitHub Pages link:
